@@ -1,6 +1,10 @@
-Relational Model  ![image](https://github.com/user-attachments/assets/e668384b-e78b-42a0-afac-946b0aafc544)
+Relational Model  
 
-DB Creation Query: [Uploading Riwi-- create database RiwiAcademyDB;
+![image](https://github.com/user-attachments/assets/e668384b-e78b-42a0-afac-946b0aafc544)
+
+DB Creation Query:
+
+-- create database RiwiAcademyDB;
 -- use RiwiAcademyDB;
 
 -- create table Student (
@@ -33,7 +37,5 @@ DB Creation Query: [Uploading Riwi-- create database RiwiAcademyDB;
 
 -- alter table Grade add value double not null;
 
-select Subscription.id as id, Course.name, Student.email from Subscription join Course on Subscription.course_id = Course.id join Student on Subscription.student_id = Student.id  where Subscription.id = 2;
-AcademyDB creation query.sql…]()
 
 Repository URL: https://github.com/AarFeE/Java-Filter
